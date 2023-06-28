@@ -1,10 +1,9 @@
-// THIS FILE HAS BEEN GENERATED WITH THE TINA CLI.
-  // This is a demo file once you have tina setup feel free to delete this file
-
   import Head from 'next/head'
   import { useTina } from 'tinacms/dist/react'
   import { TinaMarkdown } from 'tinacms/dist/rich-text'
   import client from '../../../tina/__generated__/client'
+
+import Header from '../../components/Header'
 
   const BlogPage = (props) => {
     const { data } = useTina({
@@ -26,6 +25,7 @@
           />
         </Head>
         <div>
+        <Header />
           <div
             style={{
               textAlign: 'center',
