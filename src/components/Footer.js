@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div className='bg-slate-400'>
-      <h1 className='font-sans text-center font-semibold text-xl mb-4'>
+    <div className='bg-slate-500'>
+      <h1 className='font-sans text-center font-semibold text-xl'>
         Menu Navigation
       </h1>
       <div className='grid grid-rows-2 grid-flow-col'>
-        <div className='text-lg mb-2 font-serif'>
+        <div className='text-lg font-serif'>
           <ul className='flex justify-between px-2'>
             <Link className='text-yellow-500' href='/blog'>
               ⁍ Blog
