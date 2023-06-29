@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { useTina } from 'tinacms/dist/react';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import client from '../../../tina/__generated__/client';
@@ -14,16 +13,6 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <Head>
-        {/* Tailwind CDN */}
-        <link
-          rel='stylesheet'
-          href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css'
-          integrity='sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q=='
-          crossOrigin='anonymous'
-          referrerPolicy='no-referrer'
-        />
-      </Head>
       <div>
         <Header />
         <div
@@ -40,7 +29,7 @@ const BlogPage = (props) => {
           Lost and looking for a place to start?
           <a
             href='https://tina.io/guides/tina-cloud/getting-started/overview/'
-            className='text-blue-500 underline'
+            className='text-yellow-500 underline'
           >
             {' '}
             Check out this guide
