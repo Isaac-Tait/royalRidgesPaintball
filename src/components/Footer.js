@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-slate-400'>
       <h1 className='font-sans text-center font-semibold text-xl mb-4'>
         Menu Navigation
       </h1>
