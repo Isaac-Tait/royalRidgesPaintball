@@ -2,10 +2,27 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div>
-      <div className='md:flex items-center justify-between text-xs px-1'>
-        <div className='hidden md:block'>
-          © 2010 - {new Date().getFullYear()}, Built with{' '}
+    <div className='bg-gray-200'>
+      <h1 className='font-sans text-center font-semibold text-xl mb-4'>
+        Menu Navigation
+      </h1>
+      <div className='grid grid-rows-2 grid-flow-col'>
+        <div className='text-lg mb-2 font-serif'>
+          <ul className='flex justify-between px-2'>
+            <Link className='text-yellow-500' href='/blog'>
+              ⁍ Blog
+            </Link>
+            <Link className='text-yellow-500' href='/rules'>
+              ⁍ Rules
+            </Link>
+            <Link className='text-yellow-500' href='/about'>
+              ⁍ About
+            </Link>
+          </ul>
+        </div>
+
+        <div className='text-xs fixed bottom-0'>
+          © 1976 - {new Date().getFullYear()}, Built with{' '}
           <Link
             href='https://nextjs.org/'
             target='_blank'
@@ -14,30 +31,16 @@ export default function Header() {
           >
             Next.js
           </Link>{' '}
-          &&nbsp;
+          by &nbsp;
           <Link
-            href='https://tailwindcss.com'
+            href='https://mountaintopcoding.dev'
             target='_blank'
             rel='noopener noreferrer'
             className='text-indigo-400 hover:text-amber-500'
           >
-            TailwindCSS
+            mountainTopCoding(🏔);
           </Link>
-          .
         </div>
-      </div>
-      <div className=''>
-        <ul className='flex justify-between bg-blue-400'>
-          <Link className='text-red-400' href='/blog'>
-            Blog
-          </Link>
-          <Link className='text-red-400' href='/rules'>
-            Rules
-          </Link>
-          <Link className='text-red-400' href='/about'>
-            About
-          </Link>
-        </ul>
       </div>
     </div>
   );

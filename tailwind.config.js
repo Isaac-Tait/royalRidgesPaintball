@@ -11,11 +11,11 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Orbitron', 'sans-serif'],
-        serif: ['Raleway', 'serif'],
+        serif: ['Changa', 'serif'],
       },
     },
     heroPatterns: {
-      topography: heroPatterns.bubbles,
+      bubbles: heroPatterns.bubbles,
     },
     heroPatternsShades: [
       '100',
@@ -28,7 +28,7 @@ module.exports = {
       '800',
       '900',
     ],
-    heroPatternsColors: ['indigo'],
+    heroPatternsColors: ['gray'],
   },
   plugins: [require('tailwindcss-hero-patterns')],
 };
