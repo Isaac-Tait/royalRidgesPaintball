@@ -21,7 +21,7 @@ export default function Header() {
           </ul>
         </div>
 
-        <div className='text-xs fixed bottom-0 text-center w-full'>
+        <div className='text-xs text-center w-full mt-2'>
           ©1976 - {new Date().getFullYear()}, Built with ♥ by{' '}
           <Link
             href='https://mountaintopcoding.dev'

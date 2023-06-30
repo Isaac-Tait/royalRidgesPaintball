@@ -1,10 +1,8 @@
 import Image from 'next/image';
 
-import Footer from '../components/Footer';
-
 export default function Home() {
   return (
-    <div>
+    <>
       <div className='flex flex-col h-screen bg-[url("https://images.unsplash.com/photo-1561266436-05386f8c5a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")] w-full bg-cover bg-center'>
         {/* Header */}
         <div>
@@ -35,10 +33,6 @@ export default function Home() {
           </h3>
         </div>
       </div>
-      {/* Footer */}
-      <div className='fixed bottom-0 w-full'>
-        <Footer />
-      </div>
-    </div>
+    </>
   );
 }

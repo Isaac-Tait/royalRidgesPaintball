@@ -5,7 +5,6 @@ import client from '../../../tina/__generated__/client';
 import Link from 'next/link';
 
 import Layout from '../../app/layout';
-import Header from '../../components/Header';
 
 const BlogPage = (props) => {
   const { data } = useTina({
@@ -18,8 +17,9 @@ const BlogPage = (props) => {
     <>
       <Layout>
         <div className='heropattern-bubbles-green-500'>
-          <Header />
-
+        <div>
+          <h1 className='font-semibold text-xl md:text-5xl text-center font-sans text-yellow-400 md:pb-4 tracking-wider ml-2 bg-green-500 rounded-xl'>Royal Ridges Paintball</h1>
+        </div>
           <div>
             <h1 className='text-3xl m-8 text-center leading-8 font-extrabold tracking-tight sm:text-4xl font-sans bg-green-500 text-yellow-400 rounded-xl max-w-xl mx-auto'>
               {data.post.title}
@@ -30,18 +30,6 @@ const BlogPage = (props) => {
               ></ContentSection>
             </div>
           </div>
-
-          <div className='text-xs text-center w-full bg-green-500'>
-          ©1976 - {new Date().getFullYear()}, Built with ♥ by{' '}
-          <Link
-            href='https://mountaintopcoding.dev'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='hover:text-indigo-400 text-yellow-600'
-          >
-            mountainTopCoding(🏔);
-          </Link>
-        </div>
         </div>
       </Layout>
     </>

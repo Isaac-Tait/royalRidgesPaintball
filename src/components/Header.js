@@ -10,8 +10,8 @@ export default function Header() {
       </div>
       <div className=''>
         <ul className='flex justify-between bg-green-500'>
-          <Link className='text-yellow-500 pl-2' href='/'>
-            ⁍ Home
+          <Link className='text-yellow-500 pl-2' href='/blog'>
+            ⁍ Blog
           </Link>
           <Link className='text-yellow-500' href='/rules'>
             ⁍ Rules
