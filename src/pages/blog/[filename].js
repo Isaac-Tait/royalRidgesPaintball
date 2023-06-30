@@ -2,6 +2,8 @@ import { useTina } from 'tinacms/dist/react';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import client from '../../../tina/__generated__/client';
 
+import Layout from '../../app/layout';
+
 import Link from 'next/link';
 import Head from 'next/head';
 
@@ -16,10 +18,6 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <Head>
-        {/* Tailwind CDN */}
-        
-      </Head>
       <div className='heropattern-bubbles-green-500'>
         <Header />
         <div
