@@ -28,7 +28,7 @@ module.exports = {
       '800',
       '900',
     ],
-    heroPatternsColors: ['gray'],
+    heroPatternsColors: ['gray', 'green'],
   },
   plugins: [require('tailwindcss-hero-patterns')],
 };
