@@ -2,11 +2,9 @@ import { useTina } from 'tinacms/dist/react';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import client from '../../../tina/__generated__/client';
 
-import Layout from '../../app/layout';
-
 import Link from 'next/link';
-import Head from 'next/head';
 
+import Layout from '../../app/layout';
 import Header from '../../components/Header';
 
 const BlogPage = (props) => {
@@ -18,27 +16,34 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <div className='heropattern-bubbles-green-500'>
-        <Header />
-        <div
-          style={{
-            textAlign: 'center',
-          }}
-        >
-          <h1 className='text-3xl m-8 text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl font-sans'>
-            {data.post.title}
-          </h1>
-          <ContentSection content={data.post.body}></ContentSection>
+      <Layout>
+        <div className='heropattern-bubbles-green-500'>
+          <Header />
+
+          <div>
+            <h1 className='text-3xl m-8 text-center leading-8 font-extrabold tracking-tight sm:text-4xl font-sans bg-green-500 text-yellow-400 rounded-xl max-w-xl mx-auto'>
+              {data.post.title}
+            </h1>
+            <div className='max-w-5xl mx-auto'>
+              <ContentSection
+                content={data.post.body}
+              ></ContentSection>
+            </div>
+          </div>
+
+          <div className='text-xs text-center w-full bg-green-500'>
+          ©1976 - {new Date().getFullYear()}, Built with ♥ by{' '}
+          <Link
+            href='https://mountaintopcoding.dev'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-indigo-400 text-yellow-600'
+          >
+            mountainTopCoding(🏔);
+          </Link>
         </div>
-        <div className='bg-green-100 text-center'>
-          Royal Ridges&apos; Paintball has been around since 2010 -
-          <Link href='/about' className='text-yellow-500 underline'>
-            {' '}
-            learn more at our About page
-          </Link>{' '}
-          and see you on the field!
         </div>
-      </div>
+      </Layout>
     </>
   );
 };

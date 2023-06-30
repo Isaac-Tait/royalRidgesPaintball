@@ -1,7 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import Footer from '../components/Footer';
+
+export const metadata = {
+  title: 'Royal Ridges Paintball',
+};
 
 export default function Home() {
   return (
@@ -16,37 +19,6 @@ export default function Home() {
         {/* Body */}
         <div className=''>
           <div className='grid grid-cols-1 gap-2 lg:grid-cols-4 mt-1 md:mt-4'>
-            <div></div>
-            {/* <div className='hidden lg:block bg-green-600 mx-6 rounded-xl'>
-              <h1 className='font-sans text-center font-bold text-xl text-slate-900 tracking-widest'>
-                Menu Navigation
-              </h1>
-              <div className='text-lg font-serif'>
-                <ul className='flex flex-col justify-between px-2'>
-                  <Link className='text-yellow-700' href='/blog'>
-                    ⁍ Blog
-                  </Link>
-                  <Link className='text-yellow-700' href='/rules'>
-                    ⁍ Rules
-                  </Link>
-                  <Link className='text-yellow-700' href='/about'>
-                    ⁍ About
-                  </Link>
-                </ul>
-              </div>
-
-              <div className='text-xs flex'>
-                ©1976 - {new Date().getFullYear()}, Built with ♥ by{' '}
-                <Link
-                  href='https://mountaintopcoding.dev'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='hover:text-indigo-400 text-amber-600'
-                >
-                  mountainTopCoding(🏔);
-                </Link>
-              </div>
-            </div> */}
             <div className='col-span-2 mx-auto'>
               <Image
                 src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688049329/royalRidges/paintball_ajydhr.jpg'
@@ -66,11 +38,10 @@ export default function Home() {
           </h3>
         </div>
       </div>
-      {/* <1024px width Footer */}
+      {/* Footer */}
       <div className='fixed bottom-0 w-full'>
         <Footer />
       </div>
-      {/* >1024px width Footer  */}
     </div>
   );
 }
