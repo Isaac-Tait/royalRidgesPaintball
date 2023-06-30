@@ -2,8 +2,9 @@ import { useTina } from 'tinacms/dist/react';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import client from '../../../tina/__generated__/client';
 
-import Link from 'next/link';
+import Link from 'next/link'
 
+import Footer from '../../components/Footer';
 import Layout from '../../app/layout';
 
 const BlogPage = (props) => {
@@ -15,23 +16,26 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <Layout>
-        <div className='heropattern-bubbles-green-500'>
-        <div>
-          <h1 className='font-semibold text-xl md:text-5xl text-center font-sans text-yellow-400 md:pb-4 tracking-wider ml-2 bg-green-500 rounded-xl'>Royal Ridges Paintball</h1>
-        </div>
-          <div>
-            <h1 className='text-3xl m-8 text-center leading-8 font-extrabold tracking-tight sm:text-4xl font-sans bg-green-500 text-yellow-400 rounded-xl max-w-xl mx-auto'>
-              {data.post.title}
-            </h1>
-            <div className='max-w-5xl mx-auto'>
-              <ContentSection
-                content={data.post.body}
-              ></ContentSection>
-            </div>
+      <div className='heropattern-bubbles-green-500'>
+      <Link
+          href='/'
+          className='text-2xl lg:text-6xl absolute top-0 text-center font-extrabold text-yellow-400 font-sans bg-green-500 w-full py-4'
+        >
+          Royal Ridges Paintball
+        </Link>
+        
+        <div className='flex flex-col grow max-w-3xl mx-auto'>
+          <h1 className='text-3xl m-8 text-center leading-8 font-extrabold tracking-tight sm:text-4xl font-sans bg-green-500 text-yellow-400 rounded-xl'>
+            {data.post.title}
+          </h1>
+          <div className='max-w-5xl mx-auto'>
+            <ContentSection content={data.post.body}></ContentSection>
           </div>
         </div>
-      </Layout>
+      </div>
+      <div className='w-full sticky bottom-0'>
+        <Footer />
+      </div>
     </>
   );
 };
