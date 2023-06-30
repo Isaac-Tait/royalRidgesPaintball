@@ -9,6 +9,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        green: {
+          500: '#78866b',
+        },
+      },
       fontFamily: {
         sans: ['Orbitron', 'sans-serif'],
         serif: ['Changa', 'serif'],
