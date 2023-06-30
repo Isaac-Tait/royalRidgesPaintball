@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <div className='bg-green-500'>
-      <h1 className='font-sans text-center font-semibold text-xl'>
+      <h1 className='font-sans text-center font-semibold text-xl text-slate-800'>
         Menu Navigation
       </h1>
       <div className='grid grid-rows-2 grid-flow-col'>
@@ -21,7 +21,7 @@ export default function Header() {
           </ul>
         </div>
 
-        <div className='text-xs fixed bottom-0'>
+        <div className='text-xs fixed bottom-0 text-center w-full'>
           ©1976 - {new Date().getFullYear()}, Built with ♥ by{' '}
           <Link
             href='https://mountaintopcoding.dev'

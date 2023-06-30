@@ -16,7 +16,7 @@ export default function Home() {
         {/* Body */}
         <div className=''>
           <div className='grid grid-cols-1 gap-2 lg:grid-cols-4 mt-1 md:mt-4'>
-          <div></div>
+            <div></div>
             {/* <div className='hidden lg:block bg-green-600 mx-6 rounded-xl'>
               <h1 className='font-sans text-center font-bold text-xl text-slate-900 tracking-widest'>
                 Menu Navigation
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
 
-          <h3 className='text-center font-sans tracking-widest text-slate-900 text-base md:text-2xl bg-green-500 rounded-xl max-w-5xl mx-auto mt-2 lg:mt-12'>
+          <h3 className='text-center font-sans tracking-widest text-slate-900 text-base md:text-2xl bg-green-500 lg:rounded-xl max-w-5xl mx-auto mt-2 lg:mt-12'>
             The best location for paintball action in the Battle
             Ground/Vancouver Washington area
           </h3>
