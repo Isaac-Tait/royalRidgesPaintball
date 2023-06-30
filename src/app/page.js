@@ -2,10 +2,6 @@ import Image from 'next/image';
 
 import Footer from '../components/Footer';
 
-export const metadata = {
-  title: 'Royal Ridges Paintball',
-};
-
 export default function Home() {
   return (
     <div>
@@ -19,6 +15,7 @@ export default function Home() {
         {/* Body */}
         <div className=''>
           <div className='grid grid-cols-1 gap-2 lg:grid-cols-4 mt-1 md:mt-4'>
+            <div></div>
             <div className='col-span-2 mx-auto'>
               <Image
                 src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688049329/royalRidges/paintball_ajydhr.jpg'
