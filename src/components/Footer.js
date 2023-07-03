@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <div className='bg-green-500'>
-      <h1 className='font-sans text-center font-semibold text-xl text-slate-800'>
+      <h1 className='font-sans text-center text-2xl text-slate-900'>
         Menu Navigation
       </h1>
       <div className='grid grid-rows-2 grid-flow-col'>

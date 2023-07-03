@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
+import Logo from '../app/logoRRP.png';
 import Layout from '../app/layout';
 
 import Footer from '../components/Footer';
@@ -8,7 +10,7 @@ import Footer from '../components/Footer';
 export default function Rules() {
   return (
     <>
-      <div className='flex min-h-screen bg-slate-100 flex-col items-center justify-center'>
+      <div className='flex flex-col min-h-screen bg-slate-200 items-center justify-center'>
         <Head>
           <title>Rules @ Royal Ridges Paintball</title>
           <link rel='icon' href='/favicon.ico' />
@@ -16,11 +18,16 @@ export default function Rules() {
 
         <Link
           href='/'
-          className='text-6xl absolute top-0 text-center font-extrabold text-yellow-400 font-sans bg-green-500 w-full py-4'
+          className='text-6xl font-extrabold text-yellow-400 font-sans bg-green-500 max-w-3xl mx-auto rounded-xl py-4'
         >
-          Royal Ridges Paintball
+          <Image
+            src={Logo}
+            alt='This is the royal ridges logo'
+            height={350}
+            className='text-center'
+          />
         </Link>
-        <div className='flex grow items-center justify-center px-16'>
+        <div className='flex grow items-center justify-center mt-20'>
           <div className='relative w-full max-w-xl'>
             <div className='absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob '></div>
             <div className='absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000'></div>

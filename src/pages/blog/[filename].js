@@ -3,7 +3,9 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import client from '../../../tina/__generated__/client';
 
 import Link from 'next/link'
+import Image from 'next/image'
 
+import Logo from '../../app/logoRRP.png';
 import Footer from '../../components/Footer';
 import Layout from '../../app/layout';
 
@@ -16,19 +18,19 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <div className='heropattern-bubbles-green-500'>
+      <div className='heropattern-bubbles-green-500 flex flex-col'>
       <Link
           href='/'
-          className='text-2xl lg:text-6xl absolute top-0 text-center font-extrabold text-yellow-400 font-sans bg-green-500 w-full py-4'
+          className='text-2xl lg:text-6xl font-extrabold text-yellow-400 font-sans bg-green-500 max-w-3xl mx-auto rounded-xl py-4'
         >
-          Royal Ridges Paintball
+           <Image src={Logo} alt="This is the royal ridges logo" height={350} className='text-center'/>
         </Link>
         
-        <div className='flex flex-col grow max-w-3xl mx-auto'>
+        <div className='max-w-3xl mx-auto'>
           <h1 className='text-3xl m-8 text-center leading-8 font-extrabold tracking-tight sm:text-4xl font-sans bg-green-500 text-yellow-400 rounded-xl'>
             {data.post.title}
           </h1>
-          <div className='max-w-5xl mx-auto'>
+          <div className=''>
             <ContentSection content={data.post.body}></ContentSection>
           </div>
         </div>
@@ -91,9 +93,9 @@ const components = {
 
 const ContentSection = ({ content }) => {
   return (
-    <div className='relative py-16 bg-white overflow-hidden'>
-      <div className='relative px-4 sm:px-6 lg:px-8'>
-        <div className='text-lg max-w-prose mx-auto'>
+    <div className='py-16 bg-green-500 rounded-xl mb-4 overflow-y-scroll'>
+      <div className='px-4 sm:px-6 lg:px-8'>
+        <div className='font-serif text-lg max-w-prose mx-auto'>
           <TinaMarkdown components={components} content={content} />
         </div>
       </div>
