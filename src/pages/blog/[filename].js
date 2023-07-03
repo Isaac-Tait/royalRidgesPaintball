@@ -18,7 +18,7 @@ const BlogPage = (props) => {
 
   return (
     <>
-      <div className='heropattern-bubbles-green-500 flex flex-col'>
+      <div className='heropattern-bubbles-green-500 bg-slate-700 flex flex-col'>
       <Link
           href='/'
           className='text-2xl lg:text-6xl font-extrabold text-yellow-400 font-sans bg-green-500 max-w-3xl mx-auto rounded-xl py-4'
