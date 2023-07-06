@@ -21,7 +21,7 @@
     "tailwindcss-hero-patterns": "^0.1.2",
     "tinacms": "^1.5.12"
   },
-  "browserlist": [
+  "browserslist": [
     "defaults and support es6-module",
     "maintained node versions"
   ]
