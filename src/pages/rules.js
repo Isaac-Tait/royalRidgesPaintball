@@ -34,11 +34,11 @@ export default function Rules() {
             <div className='absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000'></div>
           </div>
           {/* Content */}
-          <div className='max-w-5xl mx-auto'>
+          <div className='md:max-w-5xl lg:max-w-7xl font-serif'>
             <p
               className='first-line:uppercase first-line:tracking-widest
                     first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-                    first-letter:mr-3 first-letter:float-left'
+                    first-letter:mr-3 first-letter:float-left md:-ml-80 md:mr-48'
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vivamus eget nisi et lectus convallis pretium sit amet
