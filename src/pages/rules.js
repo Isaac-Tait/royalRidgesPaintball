@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 export default function Rules() {
   return (
     <>
-      <div className='flex flex-col min-h-screen bg-slate-200 items-center justify-center'>
+      <div className='flex flex-col min-h-screen bg-slate-200 items-center justify-center overflow-hidden'>
         <Head>
           <title>Rules @ Royal Ridges Paintball</title>
           <link rel='icon' href='/favicon.ico' />
