@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 export default function Rules() {
   return (
     <>
-      <div className='flex flex-col min-h-screen bg-slate-200 items-center justify-center overflow-hidden'>
+      <div className='flex flex-col min-h-screen bg-[url("https://images.unsplash.com/photo-1561266436-05386f8c5a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")] w-full bg-cover bg-center overflow-hidden'>
         <Head>
           <title>Rules @ Royal Ridges Paintball</title>
           <link rel='icon' href='/favicon.ico' />
@@ -27,18 +27,13 @@ export default function Rules() {
             className='text-center'
           />
         </Link>
-        <div className='flex grow items-center justify-center mt-20'>
-          <div className='relative w-full max-w-xl'>
-            <div className='absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob '></div>
-            <div className='absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000'></div>
-            <div className='absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000'></div>
-          </div>
+        <div className='flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500 overflow-y-scroll'>
           {/* Content */}
           <div className='md:max-w-5xl lg:max-w-7xl font-serif'>
             <p
               className='first-line:uppercase first-line:tracking-widest
                     first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-                    first-letter:mr-3 first-letter:float-left md:-ml-80 md:mr-48'
+                    first-letter:mr-3 first-letter:float-left'
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vivamus eget nisi et lectus convallis pretium sit amet

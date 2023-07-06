@@ -3,7 +3,7 @@ import { useTina } from 'tinacms/dist/react';
 import { client } from '../../../tina/__generated__/client';
 
 import Head from 'next/head';
-import Image from 'next/image'
+import Image from 'next/image';
 
 import Logo from '../../app/logoRRP.png';
 import Layout from '../../app/layout';
@@ -19,7 +19,7 @@ export default function PostList(props) {
   const postsList = data.postConnection.edges;
   return (
     <>
-      <div className='flex flex-col min-h-screen bg-green-500'>
+      <div className='flex flex-col min-h-screen bg-[url("https://images.unsplash.com/photo-1561266436-05386f8c5a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")] w-full bg-cover bg-center overflow-hidden'>
         <Head>
           <title>Rules @ Royal Ridges Paintball</title>
           <link rel='icon' href='/favicon.ico' />
@@ -27,14 +27,21 @@ export default function PostList(props) {
 
         <Link
           href='/'
-          className='text-2xl lg:text-6xl  font-extrabold text-yellow-400 font-sans max-w-3xl mx-auto rounded-xl py-4'
+          className='text-2xl lg:text-6xl bg-green-500 font-extrabold text-yellow-400 font-sans max-w-3xl mx-auto rounded-xl py-4 mb-4'
         >
-          <Image src={Logo} alt="This is the royal ridges logo" height={350} className='text-center'/>
+          <Image
+            src={Logo}
+            alt='This is the royal ridges logo'
+            height={350}
+            className='text-center'
+          />
         </Link>
 
-        <div className='bg-yellow-800 rounded-lg w-2/3 mx-auto'>
-        <h1 className='w-full font-serif text-5xl text-yellow-400 flex justify-center'>Blog Posts</h1>
-            <div>
+        <div className='bg-green-500 rounded-lg w-2/3 mx-auto'>
+          <h1 className='w-full font-serif text-5xl text-yellow-400 flex justify-center'>
+            Blog Posts
+          </h1>
+          <div className='p-2'>
             {postsList.map((post) => (
               <div key={post.node.id}>
                 <Link href={`/blog/${post.node._sys.filename}`}>
@@ -42,7 +49,7 @@ export default function PostList(props) {
                 </Link>
               </div>
             ))}
-            </div>
+          </div>
         </div>
         <div className='fixed inset-x-0 bottom-0'>
           <Footer />
