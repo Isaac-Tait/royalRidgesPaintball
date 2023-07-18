@@ -30,34 +30,29 @@ export default function Rules() {
         <div className='flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500 overflow-y-scroll'>
           {/* Content */}
           <div className='md:max-w-5xl lg:max-w-7xl font-serif'>
-            <p
-              className='first-line:uppercase first-line:tracking-widest
-                    first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-                    first-letter:mr-3 first-letter:float-left'
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vivamus eget nisi et lectus convallis pretium sit amet
-              et neque. Nullam rhoncus pretium tortor quis varius.
-              Fusce a mauris sed erat cursus condimentum. Aenean
-              tincidunt nisi in maximus tincidunt. Donec sit amet
-              lectus in odio porttitor vestibulum. Proin sollicitudin
-              semper nulla ac consequat. Quisque in sollicitudin
-              neque. Praesent vitae venenatis dui. Etiam viverra velit
-              et mi aliquet, sed mollis risus sollicitudin.
-              Suspendisse potenti. Duis ut metus urna. Cras id mauris
-              sit amet odio pellentesque finibus. Duis at nisi quis
-              orci dictum molestie. Fusce hendrerit sed nunc eu
-              ullamcorper. Duis efficitur, leo sit amet porttitor
-              porttitor, dui massa dapibus massa, et dapibus dolor dui
-              tristique nisi. Aliquam ornare, libero sit amet
-              venenatis tristique, elit neque semper est, at viverra
-              justo dolor id nibh. Phasellus et mi sit amet nisi
-              varius maximus id vitae felis. Nullam nulla arcu,
-              facilisis id lacus ut, molestie convallis odio. Donec
-              imperdiet odio ac leo rhoncus sagittis. Morbi ac turpis
-              augue. Donec volutpat varius tellus, sed aliquam metus
-              lobortis vitae.
-            </p>
+            <h1 className=''>Paintball Field Rules</h1>
+              <h3>Masks to be worn on field</h3>
+              <p>Paintball masks must stay on at all times while on the field. No Exceptions. We reserve the right to require players who violate this rule on accident or on purpose to sit out the following round.*</p>
+              <h3>“Freeze”</h3>
+              <p>If a player has their mask accidentally come off on the field, the referees will shout “freeze.” Everyone, players as well as fellow referees, are required to repeat this and all players must cease firing and safety their markers immediately.</p>
+              <h3>>Marker safety devices and etiquette</h3>
+              <p>The barrel blocking devices (barrel bags, barrel socks, etc.) must be on the marker barrels, safety buttons engaged, and fingers off the trigger before exiting the field. No Exceptions. We reserve the right to require players who violate this rule on accident or on purpose to sit out the following round. Do not put dirty paint or paint that has fallen onto the ground into the marker, this will jam the marker.**</p>
+              <h3>Blindfire</h3>
+              <p>Blindfire is not allowed on this field. Players must be able to see where their paint is hitting.
+              <h3>No marker melee</h3>
+              Players may not, under any circumstance, throw their marker at, or hit another player with their marker. Such behavior will result in immediate expulsion from the field. In addition, do not set markers on the ground, and keep them off the ground during play.</p>
+              <h3>Field objects and safety</h3>
+              <p>Players may not crawl into tight areas, or over objects that raise to about the waist or higher. This includes, but is not limited to: climbing into tubes on TAC Field, into trees, vaulting over windows/barricades, etc. Exception: fallen logs in Woodsball Field. </p>
+              <h3>Paint breaks/splatter</h3>
+              Paintballs must break on a player in order for them to be out, “bounces” do not count. The spot must be a quarter size or larger, so spatter does not count as a hit. Players may call for paint checks on themselves by yelling “Paint check!” The player must get to cover and wait for a referee to run to them and determine them “hit” or “clean”.</p>
+              <h3>Eliminated players</h3>
+              <p>Once hit, a player must raise their hand or marker in the air and yell “hit” and then jog off the field and stand by a referee. Once they reach the referee they must safety their marker. If a players calls themselves hit, and later discovers the paintball bounced instead of breaking, they may not re-enter on that round as they have already called hit.</p>
+              <h3>Close Quarter Combat (CQB)</h3>
+              <p>When within 5 feet of another player, do not shoot. Call out “Safety!” as loud as you can, and as many times necessary to alert the other player. When within approximately 15 feet of another player, attempt to surrender them by calling out “Surrender or Die!” at which time the other player may choose to call “hit” and, or attempt to stay in the game by fighting back.</p>
+              <h3>Friendly fire</h3>
+              <p>Friendly fire is when one teammate shoots another teammate. This is not allowed. An accidental friendly fire will be given a warning. At the referee’s discretion, accidental or purposeful friendly fire will result in the player being sat out of the game, or expulsion from the field. </p>
+              <p>* If the head referee can visibly see that all players have engaged their barrel blocking devices and safety buttons after a round, they may say “field is cold” and remove their masks, signifying to others that they may do so. This is the only instance in which players may remove their mask on the field.</p>
+              <p>** Engaging both the barrel blocking device and safety button is referred to as “safetying” the marker.</p>
           </div>
         </div>
         <div className='w-full sticky bottom-0'>
