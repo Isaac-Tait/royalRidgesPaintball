@@ -12,6 +12,9 @@ export default function Header() {
             <Link className="text-yellow-400" href="/blog">
               ⁍ Blog
             </Link>
+            <Link className="text-yellow-400" href="/open-play">
+              ⁍ Open Play
+            </Link>
             <Link className="text-yellow-400" href="/rules">
               ⁍ Rules
             </Link>

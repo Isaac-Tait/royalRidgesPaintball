@@ -6,12 +6,12 @@ import Logo from "../app/logoRRP.png";
 import Layout from "../app/layout";
 import Footer from "../components/Footer";
 
-export default function About() {
+export default function OpenPlay() {
   return (
     <>
       <div className='flex flex-col min-h-screen bg-[url("https://images.unsplash.com/photo-1561266436-05386f8c5a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")] w-full bg-cover bg-center overflow-hidden'>
         <Head>
-          <title>About Royal Ridges Paintball</title>
+          <title>Open Play at Royal Ridges Paintball</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -54,41 +54,6 @@ export default function About() {
               rhoncus sagittis. Morbi ac turpis augue. Donec volutpat varius
               tellus, sed aliquam metus lobortis vitae.
             </p>
-            <p
-              className="first-line:uppercase first-line:tracking-widest
-                    first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-                    first-letter:mr-3 first-letter:float-left mt-4"
-            >
-              Cras blandit lectus dui, at auctor velit sodales vitae. Nam
-              sodales, turpis sit amet ornare feugiat, odio quam egestas elit,
-              rhoncus auctor leo tellus nec turpis. Aenean non enim iaculis,
-              sollicitudin enim non, commodo leo. Nam aliquet molestie risus et
-              imperdiet. Ut molestie euismod nulla vel bibendum. Vestibulum ante
-              ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-              curae; Nam vulputate et libero id bibendum. Fusce nibh nulla,
-              molestie non lobortis at, rutrum ac orci. Proin porta volutpat
-              ipsum id pulvinar. Nunc vulputate ultricies elit. Praesent vel
-              augue justo. Mauris fermentum tortor vitae ipsum vestibulum
-              euismod. Donec sed risus sit amet justo efficitur rhoncus id in
-              nulla. Sed vel volutpat dui. Morbi nulla velit, volutpat sed
-              tortor in, aliquet tempor sapien. Sed congue aliquet lacinia.
-              Fusce sollicitudin bibendum semper. Nullam quis dolor at sem
-              rhoncus sollicitudin. Vestibulum viverra, odio vitae facilisis
-              venenatis, mauris est posuere arcu, id molestie velit metus
-              viverra ante. Sed id lacus faucibus diam mattis dictum. Proin
-              magna nisl, lobortis vel pharetra sed, sodales vitae nibh. Sed
-              sodales turpis scelerisque, porta felis ut, sodales tellus.
-            </p>
-            <div className="flex justify-center my-4">
-            <button className="bg-pink-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full">
-              <a
-                href="https://waiver.smartwaiver.com/w/5f3c5bc8e7afd/web/"
-                target="_blank"
-              >
-                <p className="">Paintball&nbsp;Waiver</p>
-              </a>
-            </button>
-            </div>
           </div>
         </div>
         <div className="w-full sticky bottom-0">
