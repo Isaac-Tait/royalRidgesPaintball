@@ -9,19 +9,19 @@ export default function Header() {
       <div className="grid grid-rows-2 grid-flow-col">
         <div className="text-sm md:text-lg font-serif">
           <ul className="flex justify-between px-1">
-            <Link className="text-yellow-400" href="/blog">
+            <Link className="text-pink-500 hover:text-purple-700" href="/blog">
               ⁍ Blog
             </Link>
-            <Link className="text-yellow-400" href="/open-play">
+            <Link className="text-pink-500 hover:text-green-400" href="/open-play">
               ⁍ Open Play
             </Link>
-            <Link className="text-yellow-400" href="/rules">
+            <Link className="text-pink-500 hover:text-yellow-400" href="/rules">
               ⁍ Rules
             </Link>
-            <Link className="text-yellow-400" href="/private-groups">
+            <Link className="text-pink-500 hover:text-blue-400" href="/private-groups">
               ⁍ Private Groups
             </Link>
-            <Link className="text-yellow-400" href="/about">
+            <Link className="text-pink-500 hover:text-orange-500" href="/about">
               ⁍ About
             </Link>
           </ul>
