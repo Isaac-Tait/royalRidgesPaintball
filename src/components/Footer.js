@@ -7,8 +7,8 @@ export default function Header() {
         Menu Navigation
       </h1>
       <div className="grid grid-rows-2 grid-flow-col">
-        <div className="text-lg font-serif">
-          <ul className="flex justify-between px-2">
+        <div className="text-sm md:text-lg font-serif">
+          <ul className="flex justify-between px-1">
             <Link className="text-yellow-400" href="/blog">
               ⁍ Blog
             </Link>
@@ -18,14 +18,17 @@ export default function Header() {
             <Link className="text-yellow-400" href="/rules">
               ⁍ Rules
             </Link>
+            <Link className="text-yellow-400" href="/private-groups">
+              ⁍ Private Groups
+            </Link>
             <Link className="text-yellow-400" href="/about">
               ⁍ About
             </Link>
           </ul>
         </div>
 
-        <div className="text-xs text-center w-full mt-2">
-          ©1978 - {new Date().getFullYear()}, Built with ♥ by{" "}
+        <div className="text-xs text-center w-full mt-2 font-mono">
+          ©1978-{new Date().getFullYear()}, Built with ♥ by{" "}
           <Link
             href="https://mountaintopcoding.dev"
             target="_blank"
