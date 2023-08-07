@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import Logo from "../app/logoRRP.png";
 import Footer from "../components/Footer";
+import Pay from "../components/Pay";
 
 const Home = () => {
   return (
@@ -17,6 +18,9 @@ const Home = () => {
                 height={500}
               />
             </div>
+          </div>
+          <div className="absolute top-3 right-3">
+            <Pay />
           </div>
           <h3 className="text-center font-sans tracking-widest text-slate-900 text-base md:text-2xl bg-green-500 lg:rounded-xl max-w-5xl mx-auto mt-2 lg:mt-12">
             The best location for paintball & airsoft in the Battle
