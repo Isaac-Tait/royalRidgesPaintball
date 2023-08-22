@@ -30,30 +30,50 @@ export default function PrivateGroups() {
         <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500 overflow-y-scroll">
           {/* Content */}
           <div className="max-w-5xl mx-auto font-serif">
+            <h1 className="-mt-20 mb-6 text-center font-extrabold font-sans text-4xl">
+              Private Groups
+            </h1>
             <p
               className="first-line:uppercase first-line:tracking-widest
                     first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
                     first-letter:mr-3 first-letter:float-left"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              eget nisi et lectus convallis pretium sit amet et neque. Nullam
-              rhoncus pretium tortor quis varius. Fusce a mauris sed erat cursus
-              condimentum. Aenean tincidunt nisi in maximus tincidunt. Donec sit
-              amet lectus in odio porttitor vestibulum. Proin sollicitudin
-              semper nulla ac consequat. Quisque in sollicitudin neque. Praesent
-              vitae venenatis dui. Etiam viverra velit et mi aliquet, sed mollis
-              risus sollicitudin. Suspendisse potenti. Duis ut metus urna. Cras
-              id mauris sit amet odio pellentesque finibus. Duis at nisi quis
-              orci dictum molestie. Fusce hendrerit sed nunc eu ullamcorper.
-              Duis efficitur, leo sit amet porttitor porttitor, dui massa
-              dapibus massa, et dapibus dolor dui tristique nisi. Aliquam
-              ornare, libero sit amet venenatis tristique, elit neque semper
-              est, at viverra justo dolor id nibh. Phasellus et mi sit amet nisi
-              varius maximus id vitae felis. Nullam nulla arcu, facilisis id
-              lacus ut, molestie convallis odio. Donec imperdiet odio ac leo
-              rhoncus sagittis. Morbi ac turpis augue. Donec volutpat varius
-              tellus, sed aliquam metus lobortis vitae.
+              Are you looking for a fun event to celebrate a birthday, a
+              bachelor/bachelorette party, a family gathering, or a company
+              event? Then book a fun two-hour private paintball experience at
+              our field. Your party will have access to three different styles
+              of playing fields and many different game scenarios and will have
+              a party manager/referee to keep your event fun and safe. All
+              charges cover the cost of a paintball mask, a marker, paintballs,
+              and up to two hours of gameplay.
             </p>
+            <p className="mt-4 mb-6">
+              Interested in other dates/times? Email{" "}
+              <a
+                href="emailto:paintball@royalridges.org"
+                className="text-green-300 hover:underline hover:text-purple-400"
+              >
+                paintball@royalridges.org
+              </a>
+              &nbsp;to arrange alternate dates/times.
+            </p>
+            <hr />
+            <p className="my-6 text-center">
+              For prices and to secure your spot on the gauntlet click the link
+              below
+              <span role="img" aria-label="backhandIndexPointingDown">
+                &#128071;
+              </span>
+            </p>
+            <div className="flex justify-center w-full">
+              <Link
+                href="https://buy.stripe.com/aEUcP10UvbRO7F6fZ0"
+                target="__blank"
+                className="bg-yellow-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400"
+              >
+                Get on the Field
+              </Link>
+            </div>
           </div>
         </div>
         <div className="w-full sticky bottom-0">

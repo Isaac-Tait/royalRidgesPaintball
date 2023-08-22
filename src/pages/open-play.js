@@ -30,30 +30,49 @@ export default function OpenPlay() {
         <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500 overflow-y-scroll">
           {/* Content */}
           <div className="max-w-5xl mx-auto font-serif">
+            <h1 className="mb-6 text-center font-extrabold font-sans text-4xl">
+              Open Play
+            </h1>
             <p
               className="first-line:uppercase first-line:tracking-widest
                     first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
                     first-letter:mr-3 first-letter:float-left"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              eget nisi et lectus convallis pretium sit amet et neque. Nullam
-              rhoncus pretium tortor quis varius. Fusce a mauris sed erat cursus
-              condimentum. Aenean tincidunt nisi in maximus tincidunt. Donec sit
-              amet lectus in odio porttitor vestibulum. Proin sollicitudin
-              semper nulla ac consequat. Quisque in sollicitudin neque. Praesent
-              vitae venenatis dui. Etiam viverra velit et mi aliquet, sed mollis
-              risus sollicitudin. Suspendisse potenti. Duis ut metus urna. Cras
-              id mauris sit amet odio pellentesque finibus. Duis at nisi quis
-              orci dictum molestie. Fusce hendrerit sed nunc eu ullamcorper.
-              Duis efficitur, leo sit amet porttitor porttitor, dui massa
-              dapibus massa, et dapibus dolor dui tristique nisi. Aliquam
-              ornare, libero sit amet venenatis tristique, elit neque semper
-              est, at viverra justo dolor id nibh. Phasellus et mi sit amet nisi
-              varius maximus id vitae felis. Nullam nulla arcu, facilisis id
-              lacus ut, molestie convallis odio. Donec imperdiet odio ac leo
-              rhoncus sagittis. Morbi ac turpis augue. Donec volutpat varius
-              tellus, sed aliquam metus lobortis vitae.
+              Royal Ridges loves to spread the love for paintball, and a unique
+              way we get to drive the sport forward is to host open play days.
+              This allows individuals or small groups of friends and paintball
+              teams to come together with other like-minded people and spend the
+              day playing some fun paintball games and scenarios here at our
+              course. Our Paintball open plays are typically scheduled on the
+              Third Saturday of every month. The first game starts at 10 am The
+              last game is at 3 pm
             </p>
+            <h3 className="font-bold text-2xl text-center py-4">Airsoft</h3>
+            <p className="mb-4">
+              Every first Saturday of the month, we open our field up for our
+              Airsoft Openplays. This is a newer addition to our monthly
+              offerings and a fast-growing event. Airsoft rentals are available
+              through a third-party provider, or you can bring your own
+              equipment out and join in the fun. The first game starts at 10 am
+              The last game is at 3 pm
+            </p>
+            <hr />
+            <p className="my-6 text-center">
+              For prices and to secure your spot on the gauntlet click the link
+              below
+              <span role="img" aria-label="backhandIndexPointingDown">
+                &#128071;
+              </span>
+            </p>
+            <div className="flex justify-center w-full">
+              <Link
+                href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
+                target="__blank"
+                className="bg-purple-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400"
+              >
+                Get on the Field
+              </Link>
+            </div>
           </div>
         </div>
         <div className="w-full sticky bottom-0">
