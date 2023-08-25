@@ -31,10 +31,14 @@ export default function Pay() {
         </h1>
         <p className="mb-4">
           So, you think you have what it takes to play in the big leagues? Well
-          there is only one way to find out. Click the link below to secure
-          your spot on the field{' '}<span className="text-sm italic">(Keep in mind cell reception is very limited at
-          the field so it is best to pay before arriving. Sometimes we have
-          Starlink setup, but DO NOT count on it)</span>.
+          there is only one way to find out. Click the link below to secure your
+          spot on the field{" "}
+          <span className="text-sm italic">
+            (Keep in mind cell reception is very limited at the field so it is
+            best to pay before arriving. Sometimes we have Starlink setup, but
+            DO NOT count on it)
+          </span>
+          .
         </p>
         <div className="flex justify-center w-full mb-8">
           <Link
@@ -50,11 +54,15 @@ export default function Pay() {
         </h1>
         <p className="mb-4">
           Looking for some good ole fashioned workplace bonding? Or maybe one
-          last hurrah with the boys/girls before they say "I Do" and you will
-          never see them again? Then look no further than Royal Ridges
-          Paintball{' '}<span className="text-sm italic">(Keep in mind cell reception is very limited at
-          the field so it is best to pay before arriving. Sometimes we have
-          Starlink setup, but DO NOT count on it)</span>.
+          last hurrah with the boys/girls before they say &quot;I Do&quot; and
+          you will never see them again? Then look no further than Royal Ridges
+          Paintball{" "}
+          <span className="text-sm italic">
+            (Keep in mind cell reception is very limited at the field so it is
+            best to pay before arriving. Sometimes we have Starlink setup, but
+            DO NOT count on it)
+          </span>
+          .
         </p>
         <div className="flex justify-center w-full">
           <Link
