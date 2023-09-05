@@ -21,7 +21,7 @@ export default function PostList(props) {
     <>
       <div className='flex flex-col min-h-screen bg-[url("https://images.unsplash.com/photo-1561266436-05386f8c5a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")] w-full bg-cover bg-center overflow-hidden'>
         <Head>
-          <title>Rules @ Royal Ridges Paintball</title>
+          <title>Blog @ Royal Ridges Paintball</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 

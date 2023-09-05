@@ -24,10 +24,11 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
+        format: "md",
         fields: [
           {
-            type: "string",
             name: "title",
+            type: "string",
             label: "Title",
             isTitle: true,
             required: true,

@@ -4,10 +4,9 @@ export default function Header() {
   return (
     <div className="bg-green-500">
       <h1 className="font-sans text-center text-lg text-slate-900 pb-2">
-        Menu Navigation
+        Navigation
       </h1>
-      <hr />
-      <div className="grid grid-rows-2 grid-flow-col mt-2">
+      <div className="grid grid-rows-2 grid-flow-col">
         <div className="text-sm md:text-lg font-serif drop-shadow-xl">
           <ul className="flex justify-between px-1">
             <Link
