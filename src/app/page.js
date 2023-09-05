@@ -16,21 +16,22 @@ const Home = () => {
                 src={Logo}
                 alt="Logo for royal ridges paintball"
                 height={500}
+                className="drop-shadow-2xl"
               />
             </div>
           </div>
-          <div className="absolute top-3 right-3 bg-slate-300 w-10 h-10 md:w-20 md:h-20 rounded-full grid place-items-center">
+          <div className="absolute top-3 right-3 bg-slate-300 w-10 h-10 md:w-20 md:h-20 rounded-full grid place-items-center drop-shadow-xl">
             <Link
               href="/pay"
-              className="text-sm md:text-lg font-sans font-regular md:font-bold md:tracking-widest hover:underline hover:text-purple-400"
+              className="text-sm md:text-lg font-sans font-regular md:font-bold md:tracking-widest text-purple-500 hover:text-blue-400"
             >
               Pay
             </Link>
           </div>
-          <h3 className="text-center font-sans tracking-widest text-slate-900 text-base md:text-2xl bg-green-500 lg:rounded-xl max-w-5xl mx-auto mt-2 lg:mt-12">
+          <p className=" text-center font-sans tracking-widest text-slate-900 text-base md:text-2xl bg-green-500 lg:rounded-xl max-w-5xl mx-auto mt-2 lg:mt-12">
             The best location for paintball & airsoft in the Battle
             Ground/Vancouver Washington area
-          </h3>
+          </p>
         </div>
 
         <div className="sticky bottom-0">
