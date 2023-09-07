@@ -80,14 +80,12 @@ export default function About() {
               sodales turpis scelerisque, porta felis ut, sodales tellus.
             </p>
             <div className="flex justify-center my-4">
-            <button className="bg-pink-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full">
-              <a
+              <Link
                 href="https://waiver.smartwaiver.com/w/5f3c5bc8e7afd/web/"
-                target="_blank"
+                className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
               >
-                <p className="">Paintball&nbsp;Waiver</p>
-              </a>
-            </button>
+                Paintball&nbsp;Waiver
+              </Link>
             </div>
           </div>
         </div>

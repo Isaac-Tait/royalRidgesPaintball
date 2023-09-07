@@ -30,7 +30,7 @@ export default function PrivateGroups() {
         <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500">
           {/* Content */}
           <div className="max-w-5xl mx-auto font-serif">
-            <h1 className="-mt-20 mb-6 text-center font-extrabold font-sans text-4xl">
+            <h1 className="mb-6 text-center font-extrabold font-sans text-4xl">
               Private Groups
             </h1>
             <p
@@ -51,7 +51,7 @@ export default function PrivateGroups() {
               Interested in other dates/times? Email{" "}
               <a
                 href="emailto:paintball@royalridges.org"
-                className="text-green-300 hover:underline hover:text-purple-400"
+                className="text-white hover:underline hover:text-yellow-600"
               >
                 paintball@royalridges.org
               </a>
@@ -69,7 +69,7 @@ export default function PrivateGroups() {
               <Link
                 href="https://buy.stripe.com/aEUcP10UvbRO7F6fZ0"
                 target="__blank"
-                className="bg-yellow-400 px-1 mb-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400"
+                className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
               >
                 Get on the Field
               </Link>

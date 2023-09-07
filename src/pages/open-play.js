@@ -38,14 +38,14 @@ export default function OpenPlay() {
                     first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
                     first-letter:mr-3 first-letter:float-left"
             >
-              Royal Ridges loves to spread the love for paintball, and a unique
-              way we get to drive the sport forward is to host open play days.
-              This allows individuals or small groups of friends and paintball
-              teams to come together with other like-minded people and spend the
-              day playing some fun paintball games and scenarios here at our
-              course. Our Paintball open plays are typically scheduled on the
-              Third Saturday of every month. The first game starts at 10 am The
-              last game is at 3 pm
+              Royal Ridges is all about proselytizing our love of paintball. We
+              believe that a great way to drive the sport forward is to host
+              open play days. This allows individuals or small groups of friends
+              and paintball teams to come together with other like-minded people
+              and spend the day playing some fun paintball games and scenarios
+              here at our course. Our Paintball open plays are typically
+              scheduled on the Third Saturday of every month. The first game
+              starts at 10 am The last game is at 3 pm
             </p>
             <h3 className="font-bold text-2xl text-center py-4">Airsoft</h3>
             <p className="mb-4">
@@ -68,7 +68,7 @@ export default function OpenPlay() {
               <Link
                 href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
                 target="__blank"
-                className="bg-purple-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400 mb-1"
+                className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
               >
                 Get on the Field
               </Link>
