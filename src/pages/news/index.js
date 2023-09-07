@@ -37,7 +37,7 @@ export default function PostList(props) {
           />
         </Link>
 
-        <div className="bg-green-500 rounded-lg w-2/3 md:w-1/3 mx-auto">
+        <div className="bg-green-500 rounded-lg w-2/3 md:w-1/3 mx-auto overflow-y-auto mb-4">
           <h1 className="w-full font-sans text-5xl text-yellow-400 flex justify-center">
             News
           </h1>
@@ -51,7 +51,7 @@ export default function PostList(props) {
             ))}
           </div>
         </div>
-        <div className="fixed inset-x-0 bottom-0">
+        <div className="mt-auto">
           <Footer />
         </div>
       </div>
