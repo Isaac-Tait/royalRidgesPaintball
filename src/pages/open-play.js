@@ -27,7 +27,7 @@ export default function OpenPlay() {
           />
         </Link>
 
-        <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500 overflow-y-scroll">
+        <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500">
           {/* Content */}
           <div className="max-w-5xl mx-auto font-serif">
             <h1 className="mb-6 text-center font-extrabold font-sans text-4xl">
@@ -68,7 +68,7 @@ export default function OpenPlay() {
               <Link
                 href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
                 target="__blank"
-                className="bg-purple-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400"
+                className="bg-purple-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400 mb-1"
               >
                 Get on the Field
               </Link>

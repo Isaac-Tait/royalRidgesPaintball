@@ -7,38 +7,38 @@ export default function Header() {
         Navigation
       </h1>
       <div className="grid grid-rows-2 grid-flow-col">
-        <div className="text-sm md:text-lg font-serif drop-shadow-xl">
+        <div className="text-xs md:text-lg font-serif drop-shadow-xl">
           <ul className="flex justify-between px-1">
             <Link
-              className="text-purple-500 hover:text-pink-700 bg-slate-300 p-1 rounded-md"
-              href="/blog"
+              className="text-yellow-600 hover:text-pink-700 bg-slate-300 p-1 rounded-md"
+              href="/news"
             >
-              ⁍ Blog
+              ⁍ News
             </Link>
             <Link
-              className="text-purple-500 hover:text-yellow-500 bg-slate-300 p-1 rounded-md"
+              className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md"
               href="/rules"
             >
-              ⁍ Rules
+              ⁍ Regulations
             </Link>
             <Link
-              className="text-purple-500 hover:text-green-400 bg-slate-300 p-1 rounded-md"
+              className="text-yellow-600 hover:text-green-400 bg-slate-300 p-1 rounded-md"
               href="/open-play"
             >
               ⁍ Open Play
             </Link>
 
             <Link
-              className="text-purple-500 hover:text-blue-400 bg-slate-300 p-1 rounded-md"
+              className="text-yellow-600 hover:text-blue-400 bg-slate-300 p-1 rounded-md"
               href="/private-groups"
             >
               ⁍ Private Groups
             </Link>
             <Link
-              className="text-purple-500 hover:text-orange-500 bg-slate-300 p-1 rounded-md"
+              className="text-yellow-600 hover:text-orange-500 bg-slate-300 p-1 rounded-md"
               href="/about"
             >
-              ⁍ About
+              ⁍ Intel
             </Link>
           </ul>
         </div>
