@@ -43,8 +43,11 @@ export default function PostList(props) {
           </h1>
           <div className="p-2">
             {postsList.map((post) => (
-              <div key={post.node.id} className="my-4 underline hover:text-white">
-                <Link href={`/blog/${post.node._sys.filename}`}>
+              <div
+                key={post.node.id}
+                className="my-4 underline hover:text-white"
+              >
+                <Link href={`/news/${post.node._sys.filename}`}>
                   {post.node.title}
                 </Link>
               </div>
