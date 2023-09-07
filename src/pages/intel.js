@@ -53,13 +53,14 @@ export default function About() {
               ></iframe>
             </div>
             <p className="font-sans text-center my-6">
-              Make sure you sign the waiver before you head up <span role="img" aria-label="backhandIndexPointingDown">
+              Make sure you sign the waiver before you head up{" "}
+              <span role="img" aria-label="backhandIndexPointingDown">
                 &#128071;
               </span>
             </p>
             <div className="flex justify-center my-4">
               <Link
-                href="https://waiver.smartwaiver.com/w/5f3c5bc8e7afd/web/"
+                href="https://waiver.smartwaiver.com/v/rrrpaintball/"
                 className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
               >
                 Paintball&nbsp;Waiver
