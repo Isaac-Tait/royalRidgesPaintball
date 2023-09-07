@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Pay() {
   return (
-    <div className="flex flex-col h-screen bg-green-500 font-serif">
+    <div className="flex flex-col min-h-screen bg-green-500 font-serif">
       <Head>
         <title>Payment information for Royal Ridges Paintball</title>
         <link rel="icon" href="/favicon.ico" />
@@ -43,9 +43,12 @@ export default function Pay() {
         <div className="flex justify-center w-full mb-8">
           <Link
             href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
-            className="bg-purple-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400"
+            className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
           >
-            Open Play (Paintball or Airsoft)
+            <span role="img" aria-label="money with wings">
+              &#128184;
+            </span>{" "}
+            Secure Your Spot
           </Link>
         </div>
         <hr />
@@ -64,14 +67,18 @@ export default function Pay() {
           </span>
           .
         </p>
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full mb-2">
           <Link
             href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
-            className="bg-purple-400 px-1 rounded-md text-3xl text-slate-200 hover:bg-slate-200 hover:text-purple-400"
+            className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
           >
-            Private Groups
+            <span role="img" aria-label="money with wings">
+              &#128184;
+            </span>{" "}
+            Secure Your Spot
           </Link>
         </div>
+        <hr />
       </div>
       <div className="w-full sticky bottom-0">
         <Footer />

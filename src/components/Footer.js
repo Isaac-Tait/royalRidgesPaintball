@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="bg-green-500">
-      <h1 className="font-sans text-center text-lg text-slate-900 pb-2">
+      <h1 className="font-sans text-center text-sm md:text-lg text-slate-900 pb-2">
         Navigation
       </h1>
       <div className="grid grid-rows-2 grid-flow-col">
@@ -13,32 +13,32 @@ export default function Header() {
               className="text-yellow-600 hover:text-pink-700 bg-slate-300 p-1 rounded-md"
               href="/news"
             >
-              ⁍ News
+              News
             </Link>
             <Link
               className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md"
               href="/rules"
             >
-              ⁍ Regulations
+              Regulations
             </Link>
             <Link
               className="text-yellow-600 hover:text-green-400 bg-slate-300 p-1 rounded-md"
               href="/open-play"
             >
-              ⁍ Open Play
+              Open Play
             </Link>
 
             <Link
               className="text-yellow-600 hover:text-blue-400 bg-slate-300 p-1 rounded-md"
               href="/private-groups"
             >
-              ⁍ Private Groups
+              Private Groups
             </Link>
             <Link
               className="text-yellow-600 hover:text-orange-500 bg-slate-300 p-1 rounded-md"
               href="/about"
             >
-              ⁍ Intel
+              Intel
             </Link>
           </ul>
         </div>
