@@ -98,7 +98,7 @@ const components = {
 
 const ContentSection = ({ content }) => {
   return (
-    <div className="py-16 bg-green-500 rounded-xl mb-4 overflow-y-scroll">
+    <div className="py-16 bg-green-500 rounded-xl mb-4">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="font-serif max-w-prose mx-auto">
           <TinaMarkdown components={components} content={content} />

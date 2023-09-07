@@ -21,7 +21,7 @@ export default function PostList(props) {
     <>
       <div className='flex flex-col min-h-screen bg-[url("https://images.unsplash.com/photo-1561266436-05386f8c5a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")] w-full bg-cover bg-center overflow-hidden'>
         <Head>
-          <title>Blog @ Royal Ridges Paintball</title>
+          <title>Blog page</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -43,9 +43,9 @@ export default function PostList(props) {
           </h1>
           <div className="p-2">
             {postsList.map((post) => (
-              <div key={post.node.id}>
+              <div key={post.node.id} className="my-4 underline hover:text-white">
                 <Link href={`/blog/${post.node._sys.filename}`}>
-                  {post.node._sys.filename}
+                  {post.node.title}
                 </Link>
               </div>
             ))}
@@ -60,7 +60,10 @@ export default function PostList(props) {
 }
 
 export const getStaticProps = async () => {
-  const { data, query, variables } = await client.queries.postConnection();
+  const { data, query, variables } = await client.queries.postConnection({
+    sort: "date",
+    first: 5,
+  });
 
   return {
     props: {

@@ -38,6 +38,21 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "excerpt",
+            label: "Excerpt",
+            isExcerpt: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+            isDate: true,
+            required: true,
           },
         ],
         ui: {
