@@ -20,12 +20,12 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="absolute top-3 right-3 bg-slate-300 w-10 h-10 md:w-20 md:h-20 rounded-full grid place-items-center drop-shadow-xl">
+          <div className="absolute top-3 right-3 bg-slate-300 w-14 h-14 md:w-20 md:h-20 rounded-full grid place-items-center drop-shadow-xl">
             <Link
               href="/pay"
-              className="text-sm md:text-lg font-sans font-regular md:font-bold md:tracking-widest text-yellow-600 hover:text-blue-400"
+              className="text-center text-xs md:text-sm font-sans font-regular md:font-bold md:tracking-widest text-yellow-600 hover:text-blue-400"
             >
-              Pay
+              Click to Book
             </Link>
           </div>
           <p className="text-center font-sans tracking-widest text-slate-900 text-base md:text-2xl bg-green-500 lg:rounded-xl max-w-5xl mx-auto mt-2 lg:mt-12">

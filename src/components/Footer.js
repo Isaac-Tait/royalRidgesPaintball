@@ -36,7 +36,7 @@ export default function Header() {
             </Link>
             <Link
               className="text-yellow-600 hover:text-orange-500 bg-slate-300 p-1 rounded-md"
-              href="/about"
+              href="/intel"
             >
               Intel
             </Link>
