@@ -37,8 +37,8 @@ export default function About() {
             >
               Royal Ridges Paintball was started in 2006. We pride ourselves on
               being a family friendly establishment. Feel free to bring the
-              whole family down, we have access to the jump pillow and other
-              kid/family friendly activities. We have also held speedball
+              whole family down, they will have access to the jump pillow and
+              other kid/family friendly activities. We have also held speedball
               tournaments for several years and therefore know how to run a
               smooth ship.
             </p>
