@@ -47,7 +47,19 @@ export default function PrivateGroups() {
               charges cover the cost of a paintball mask, a marker, paintballs,
               and up to two hours of gameplay.
             </p>
-            <p className="mt-4 mb-6">
+            <div className="flex justify-center">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLScO7O9Uw4m11LPZaY_gxWuUf_chLBMUBoEGg9hmXoG00C8qGw/viewform?embedded=true"
+                width="640"
+                height="1353"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+              >
+                Loading…
+              </iframe>
+            </div>
+            <p className="mt-4 mb-6 text-center">
               Interested in other dates/times? Email{" "}
               <a
                 href="emailto:paintball@royalridges.org"
@@ -65,7 +77,7 @@ export default function PrivateGroups() {
                 &#128071;
               </span>
             </p>
-            <div className="flex justify-center w-full">
+            <div className="flex justify-center w-full mb-2">
               <Link
                 href="https://buy.stripe.com/aEUcP10UvbRO7F6fZ0"
                 target="__blank"
