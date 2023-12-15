@@ -27,10 +27,10 @@ export default function PrivateGroups() {
           />
         </Link>
 
-        <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500">
+        <div className="flex items-center justify-center max-w-4xl md:max-w-7xl mx-auto md:rounded-lg my-4 px-2 bg-green-500">
           {/* Content */}
           <div className="max-w-5xl mx-auto font-serif">
-            <h1 className="mb-6 text-center font-extrabold font-sans text-4xl">
+            <h1 className="mb-6 text-center font-extrabold font-sans text-xl md:text-4xl">
               Private Groups
             </h1>
             <p
@@ -44,13 +44,13 @@ export default function PrivateGroups() {
               our field. Your party will have access to three different styles
               of playing fields and many different game scenarios and will have
               a party manager/referee to keep your event fun and safe. All
-              charges cover the cost of a paintball mask, a marker, paintballs,
-              and up to two hours of gameplay.
+              charges cover the cost of a paintball mask, a marker, paint-balls,
+              and up to two hours of game play.
             </p>
             <div className="flex justify-center">
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScO7O9Uw4m11LPZaY_gxWuUf_chLBMUBoEGg9hmXoG00C8qGw/viewform?embedded=true"
-                width="640"
+                width="100%"
                 height="1353"
                 frameborder="0"
                 marginheight="0"
