@@ -67,16 +67,17 @@ export default function Pay() {
           </span>
           .
         </p>
-        <div className="flex justify-center w-full mb-2">
-          <Link
-            href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
-            className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
+        <div className="flex justify-center">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScO7O9Uw4m11LPZaY_gxWuUf_chLBMUBoEGg9hmXoG00C8qGw/viewform?embedded=true"
+            width="100%"
+            height="1353"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
           >
-            <span role="img" aria-label="money with wings">
-              &#128184;
-            </span>{" "}
-            Secure Your Spot
-          </Link>
+            Loading…
+          </iframe>
         </div>
         <hr />
       </div>
