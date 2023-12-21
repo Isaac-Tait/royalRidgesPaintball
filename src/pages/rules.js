@@ -30,7 +30,9 @@ export default function Rules() {
         <div className="flex grow items-center justify-center md:max-w-7xl md:mx-auto md:rounded-lg my-4 px-2 bg-green-500">
           {/* Content */}
           <div className="md:max-w-5xl lg:max-w-7xl font-serif">
-            <h1 className="font-bold text-2xl text-center">Paintball Field Rules</h1>
+            <h1 className="font-bold text-2xl text-center">
+              Paintball Field Rules
+            </h1>
             <h3 className="font-semibold text-xl">Masks to be worn on field</h3>
             <p>
               Paintball masks must stay on at all times while on the field. No
@@ -108,16 +110,9 @@ export default function Rules() {
             <p>
               Friendly fire is when one teammate shoots another teammate. This
               is not allowed. An accidental friendly fire will be given a
-              warning. At the referee’s discretion, accidental or purposeful
+              warning. At the referee&#39;s discretion, accidental or purposeful
               friendly fire will result in the player being sat out of the game,
               or expulsion from the field.{" "}
-            </p>
-            <p className="italic text-center font-light text-sm my-4">
-              * If the head referee can visibly see that all players have
-              engaged their barrel blocking devices and safety buttons after a
-              round, they may say “field is cold” and remove their masks,
-              signifying to others that they may do so. This is the only
-              instance in which players may remove their mask on the field.
             </p>
             <p className="italic text-center font-light text-sm">
               ** Engaging both the barrel blocking device and safety button is
