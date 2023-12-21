@@ -77,7 +77,7 @@ export default function PrivateGroups() {
                 &#128071;
               </span>
             </p>
-            <div className="flex justify-center w-full mb-2">
+            {/* <div className="flex justify-center w-full mb-2">
               <Link
                 href="https://buy.stripe.com/aEUcP10UvbRO7F6fZ0"
                 target="__blank"
@@ -85,7 +85,7 @@ export default function PrivateGroups() {
               >
                 Get on the Field
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="w-full sticky bottom-0">
