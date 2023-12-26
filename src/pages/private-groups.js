@@ -69,23 +69,6 @@ export default function PrivateGroups() {
               </a>
               &nbsp;to arrange alternate dates/times.
             </p>
-            <hr />
-            <p className="my-6 text-center">
-              For prices and to secure your spot on the gauntlet click the link
-              below
-              <span role="img" aria-label="backhandIndexPointingDown">
-                &#128071;
-              </span>
-            </p>
-            {/* <div className="flex justify-center w-full mb-2">
-              <Link
-                href="https://buy.stripe.com/aEUcP10UvbRO7F6fZ0"
-                target="__blank"
-                className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
-              >
-                Get on the Field
-              </Link>
-            </div> */}
           </div>
         </div>
         <div className="w-full sticky bottom-0">
