@@ -62,10 +62,10 @@ export default function PrivateGroups() {
             <p className="mt-4 mb-6 text-center">
               Interested in other dates/times? Email{" "}
               <a
-                href="emailto:joshua@royalridges.org"
+                href="emailto:Joshua@royalridgespaintball.com"
                 className="text-white hover:underline hover:text-yellow-600"
               >
-                joshua@royalridges.org
+                Joshua@royalridgespaintball.com
               </a>
               &nbsp;to arrange alternate dates/times.
             </p>
