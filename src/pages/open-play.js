@@ -68,7 +68,7 @@ export default function OpenPlay() {
               <Link
                 href="https://buy.stripe.com/5kA2an6eP9JG0cE4gh"
                 target="__blank"
-                className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif"
+                className="text-yellow-600 hover:text-purple-500 bg-slate-300 p-1 rounded-md font-serif mb-2"
               >
                 Get on the Field
               </Link>
